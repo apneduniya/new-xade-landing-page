@@ -1,0 +1,36 @@
+
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 320px;
+}
+
+.contentContainer h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: Benzin-Bold;
+}
+
+.contentContainer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Regular;
+}
+
+
+

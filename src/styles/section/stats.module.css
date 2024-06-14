@@ -1,0 +1,32 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 4rem 0;
+    width: 100%;
+}
+
+.statsItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 20%;
+}
+
+.statsItemContainer span {
+    margin: 0;
+    font-family: NeueMontreal-Regular;
+    font-size: 4rem;
+}
+
+.statsItemContainer p {
+    margin: 0;
+    color: rgb(123, 123, 123);
+    font-size: 1rem;
+}
+
+

@@ -1,0 +1,43 @@
+
+
+
+.navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 64px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.navContainerScrolled {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navLogo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+}
+
+.navLink {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #8B8B8B;
+    font-weight: 400;
+    font-family: NeueMontreal-Regular;
+    cursor: pointer;
+}
